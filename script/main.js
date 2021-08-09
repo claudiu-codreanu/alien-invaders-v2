@@ -45,6 +45,7 @@ class PlayerShip extends Ship {
     move() {
         super.move();
 
+        // keep within the horizontal bounds of the canvas
         this.location.x = Math.min(this.location.x, width - this.size.width / 2);
         this.location.x = Math.max(this.location.x, this.size.width / 2);
     }
@@ -90,12 +91,14 @@ class Bullet extends GameObject {
         let dx = this.size.width / 2,
             dy = this.size.height / 2;
 
+        // if any of the four corners collides with the ship, it's a hit
         return this.isCollision(new Point(this.location.x - dx, this.location.y - dy), ship) ||
                 this.isCollision(new Point(this.location.x + dx, this.location.y - dy), ship) ||
                 this.isCollision(new Point(this.location.x - dx, this.location.y + dy), ship) ||
                 this.isCollision(new Point(this.location.x + dx, this.location.y + dy), ship);
     }
 
+    // check if a given point collides with ship rectangle
     isCollision(pt, ship) {
         let {x, y} = ship.location,
         {width, height} = ship.size;

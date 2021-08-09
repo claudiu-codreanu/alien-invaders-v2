@@ -38,6 +38,13 @@
         if (!keyPressed.has(eventArgs.keyCode)) {
             keyPressed.set(eventArgs.keyCode, eventArgs.keyCode);
         }
+
+        if(eventArgs.keyCode == SPACE) {
+            if(eventArgs.preventDefault) {
+              // need to discard the [space] event, because it scrolls the window down!
+              eventArgs.preventDefault();
+            }
+        }
     }
 
     function handleKeyUp(eventArgs) {
