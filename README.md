@@ -18,9 +18,9 @@ Check [this link](https://claudiu-codreanu.github.io/alien-invaders/) for the or
 - Slightly better game statistics
 - Refactored JS code
 
-[Click here](https://claudiu-codreanu.github.io/alien-invaders-v2/main.html) to play version 2 of the game.
-
 <br>
+
+[Click here](https://claudiu-codreanu.github.io/alien-invaders-v2/main.html) to play version 2 of the game.
 
 By the way, all visual and audio assests are from the [Unity store](https://assetstore.unity.com/).
 
