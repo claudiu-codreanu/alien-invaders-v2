@@ -1,0 +1,23 @@
+
+// background blue/grey
+https://i.imgur.com/Vkf4MKz.png
+
+// background red nebula
+https://i.imgur.com/lQSeKvz.jpeg
+
+// player ship
+https://i.imgur.com/dXSHQ87.png
+
+// alien ship
+https://i.imgur.com/Fa9zMfd.png
+
+// bullet
+https://i.imgur.com/n4jgg9X.png
+
+// explosion
+https://i.imgur.com/Eut8qoG.png
+
+
+
+// background stars
+https://i.imgur.com/1w3JnKV.jpeg
