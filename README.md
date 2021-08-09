@@ -1,8 +1,8 @@
-# The story
+# Alien Invaders v2
 
 Check [this link](https://claudiu-codreanu.github.io/alien-invaders/) for the original challenge and solution.
 
-This is "v2.0", which comes with the following improvements:
+[This is "v2.0"](https://claudiu-codreanu.github.io/alien-invaders-v2/main.html), which comes with the following improvements:
 
 - Realistic images (2D sprites) for all game objects:
     - Player ship
@@ -17,6 +17,8 @@ This is "v2.0", which comes with the following improvements:
 - New background image, helps the other game objects "pop" visually
 - Slightly better game statistics
 - Refactored JS code
+
+[Click here](https://claudiu-codreanu.github.io/alien-invaders-v2/main.html) to play version 2 of the game.
 
 <br>
 
