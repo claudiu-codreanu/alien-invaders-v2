@@ -128,7 +128,7 @@ function loadImages() {
 
     // explosion
     const imgExplosion = new Image();
-    imgExplosion.src = "asset/img/big-flare.png"; // "asset/img/explosion.png"; // "asset/img/burst.png";
+    imgExplosion.src = "asset/img/burst.png"; // "asset/img/explosion.png"; // "asset/img/big-flare.png";
 
     imgExplosion.onload = function() {
         window.imgExplosion = imgExplosion;
